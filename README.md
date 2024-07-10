@@ -6,5 +6,10 @@ Simple Bank is a Golang learning project. It provides APIs for the frontend to d
 
 The service is written by Go and aim to learn those topic belows:
 
-- Gin, gorm, sqlx & sqlc.
+- Gin
+- gorm, sqlx & sqlc.
 - How to use GitHub Action to run unit tests automatically.
+- Redis
+
+## Database
+![simple_bank.svg](docs/simple_bank.svg)
