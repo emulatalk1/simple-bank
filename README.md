@@ -9,6 +9,7 @@ The service is written by Go and aim to learn those topic belows:
 - Gin
 - golang migration
 - gorm, sqlx & sqlc
+- testify
 - How to use GitHub Action to run unit tests automatically.
 - Redis
 
