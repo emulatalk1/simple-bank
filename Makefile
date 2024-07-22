@@ -1,4 +1,4 @@
-.PHONY: createdb migrateUp sqlc test
+.PHONY: createdb migrateUp sqlc test server
 
 createdb:
 	docker exec -it simple-bank-db createdb --username=root --owner=root simple_bank
@@ -11,3 +11,6 @@ sqlc:
 
 test:
 	go test -v -cover ./...
+
+server:
+	go run main.go
